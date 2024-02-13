@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do Application</title>
+    <meta
+      name="description"
+      content="This to-do application will allow you to organise your life"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Font -->
+  </head>
+  <body>
+    <!-- DIV Gutter: add padding to the sides -->
+    <div class="gutter">
+      <!--  H1 - Title -->
+
+      <h1>What do you need to do today?</h1>
+      <!-- DIV - Container: Flex, row position the input and submit button -->
+      <div class="container">
+        <!-- Input: Enter task title -->
+        <input type="text" name="inputToDo" id="inputToDo" />
+
+        <!-- Button: Add/submit task  -->
+        <button type="submit" id="submitButton" onclick="addToDo()">Add To-Do</button>
+        <!-- UL: Place to populate the tasks/todos -->
+        <ul class="toDoList" id="toDoList"></ul>
+      </div>
+
+      <!-- DIV: Padding and styling per task     -->
+      <!-- LI:  -->
+      <!-- P: Task added  -->
+      <!-- P: Status -->
+      <!-- DIV: buttons -->
+      <!-- Button: Toggle -->
+      <!-- Button: Clear -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
